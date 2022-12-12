@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>portifolio</title>
+	<script src="https://kit.fontawesome.com/5edeb7d7f8.js" crossorigin="anonymous"></script>
+	<style type="text/css">
+		*{
+			margin:0%;
+			/*border: 1px solid red;*/
+		}
+		body{
+			background-color: #f11b6b;
+		}
+		.myself{
+			color: white;
+			text-align: center;
+		}
+		.myself *{
+           line-height:2 ;
+		}
+		
+		.name{
+			font-size: 38px;
+		}
+		.myself .fa-brands,.footer i{
+			margin-left: 2%;
+		}
+
+		.spaces{
+			margin: 4% 7%;
+			padding:2% 3% 7% 3%;
+			background-color: white;
+		}
+		.me{
+			margin-bottom: 3%;
+		}
+		/*.about img{
+          float: left;
+          border-radius: 10px;
+          margin-right: 3%;
+		}*/
+		.information{
+			display: flex;
+		}
+		.information p{
+			margin-left: 3%;
+		}
+		.projects{
+			margin-bottom: 2%;
+		}
+		.project-details{
+			display: flex;
+			justify-content: space-evenly;
+
+		}
+		.project-details>div{
+			width: 30%;
+
+		}
+		.work-year{
+			color: gray;
+			margin-top: 5%;
+		}
+		.company-year{
+		color: gray;
+		margin: 2% 0%;	
+
+		}
+		.company-name{
+			font-size: 20px;
+			font-weight: bold;
+		}
+		.company-role,.company-year{
+			color: gray;
+			margin: 2% 0%;
+			line-height: 1.7;	
+		}
+		.college-name{
+
+		}
+		.educational-details{
+			display: flex;
+			justify-content: space-between;
+			margin-top: 3%;
+		}
+		.language{
+			display: flex;
+			justify-content: space-between;
+			margin-top: 3%;
+		}
+		.rating{
+			color: gray;
+			margin-left: 10%;
+		}
+		.social-networks{
+			display: flex;
+			margin-top: 3%;
+			justify-content: space-between;
+		}
+		.social-networks *{
+			display: inline;
+			margin: auto;
+		}
+		.footer{
+			color: white;
+			text-align: center;
+			line-height: 2;
+		}
+		@media(max-width: 1050px){
+			.about p{
+				font-size: 13px;
+			}
+			.about img{
+				width: 20%;
+			}
+		}
+		@media (max-width: 800px){
+			.me{
+				text-align: center;
+			}
+			.information{
+				display: block;
+				text-align: center;
+			}
+			.information p{
+				font-size: 12px;
+			}
+			.information img{
+				width: 30%;
+			}
+		}
+		@media (max-width: 650px){
+            .information img{
+
+            }
+            .company-role{
+            	line-height: 1.4;
+            	font-size: 13px;
+            }
+            .college-name{
+            	margin-top: 3%;
+            	font-size: 13px;
+            }
+		}
+		@media (max-width: 576px){
+			.information img{
+				width: 28%;
+			}
+			.information p{
+				font-size: 11px;
+			}
+		}
+		@media (max-width: 450px){
+			.project-name{
+				font-size: 14px;
+			}
+			.work-year{
+				font-size: 12px;
+			}
+		}
+		@media (max-width: 410px){
+			.name{
+				font-size: 25px;
+			}
+			.college-name{
+				font-size: 10px;
+			}
+			.educational-details b{
+                font-size: 12px;
+			}
+			.language p{
+				font-size: 12px;
+			}
+			.footer p{
+				font-size: 14px;
+			}
+		}
+		@media (max-width: 337px){
+			.company-year{
+				font-size: 10px;
+			}
+		}
+	</style>
+</head>
+<body>
+<section class="myself">
+	<h2 class="name">deep </h2>
+	<p class="desi">Student</p>
+	<p><i class="fa-brands fa-facebook"></i>
+	<i class="fa-brands fa-instagram"></i>
+	<i class="fa-brands fa-linkedin"></i>
+
+	</p>
+</section>
+<section class="about spaces">
+	<h2 class="me">About me</h2>
+	<div class="information">
+	<img src="pro.jpg" width="8%" alt="my profile pic"/>
+	<p align="justify">
+		This is deep,I am a B tech student in Narasaraopet Institute Of Technology and my passed out year is 2024, 
+        i learn basics on coding(c, c++ ,Java, Python, DBMS(SQL)) and i wrote a Research Paper on India's Education System and submitted in International conference and i got a certificate.
+        I am an IEEE cell member and conduct some events in my collage.iam intresting in learning coding.
+  	</p>
+	
+    </div>
+</section>
+<section class="projects-section spaces">
+	<h2 class="projects">projects</h2>
+	<div class="project-details">
+		<div>
+			<img width="70%" src="download (1).png" alt="project1"/>
+			<p class="project-name">project name</p>
+			<p class="work-year">Aug 2020</p>
+		</div>
+		<div>
+			<img width="70%" src="download(2).jpg" alt="project2"/>
+			<p class="project-name">project name</p>
+			<p class="work-year">sep 2021</p>
+		</div>
+		<div >
+			<img width="80%" src="download(3).png" alt="project3"/>
+			<p class="project-name">project name</p>
+			<p class="work-year">oct 2020</p>
+		</div>
+	</div>
+</section>
+<section class="spaces work">
+	<h2>Work</h2>
+	<p class="company-year">2019-2021</p>
+	<p class="company-name">codegnan</p>
+	<p class="company-role">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable Englishefault model  versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+</section>
+<section class="spaces">
+	<h2>Education</h2>
+	<div class="educational-details">
+		<div>
+		   <p class="company-year">2017-2019</p>
+		   <p><b>Schooling</b></p>
+		   <p class="college-name">Not yet fill</p>
+	    </div>
+	    <div>
+		   <p class="company-year">2019-2021</p>
+		   <p><b>inter</b></p>
+		   <p class="college-name">Not yet fill</p>
+	    </div>
+	    <div>
+		   <p class="company-year">2021-pursing</p>
+		   <p><b>btech</b></p>
+		   <p class="college-name">Not yet fill</p>
+	    </div>
+  </div>
+</section>
+<section class="spaces">
+	<h2>Languages</h2>
+	<div class="language">
+		<p>English<span class="rating">Bilingual</span></p>
+		<p>hindi<span class="rating">Bilingual</span></p>
+	    <p>Telugu<span class="rating">Bilingual</span></p>
+	</div>
+</section>
+<section class="spaces">
+	<h2>Social Network</h2>
+	<div class="social-networks">
+		<p>
+			<i class="fa-brands fa-facebook"></i><span >deepu</span>
+		</p>
+		<p>
+			<i class="fa-brands fa-instagram"></i><span >deepu</span>
+		</p>
+	    <p>
+	    	<i class="fa-brands fa-linkedin"></i><span >deepu</span>
+	    </p>
+	</div>
+</section>
+<footer class="footer">
+	<p>&#169;	All rights reserved to this batch students</p>
+	<i class="fa-brands fa-facebook"></i>
+	<i class="fa-brands fa-instagram"></i>
+	<i class="fa-brands fa-linkedin"></i>
+
+</footer>
+</body>
+</html>
